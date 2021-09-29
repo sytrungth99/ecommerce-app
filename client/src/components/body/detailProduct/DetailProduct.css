@@ -1,0 +1,59 @@
+.detail-product-page{
+    max-width: 1200px;
+    padding: 15px;
+    margin: auto;
+}
+/*-----------reviews-----------*/
+.comments h2{
+    text-align: left;
+}
+.reviews{
+    width: 115px;
+    margin: 10px 0;
+}
+.reviews input{
+    display: none;
+}
+.reviews label{
+    color: #999;
+    margin: 5px 0;
+    padding-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+.reviews input:not(:checked) ~ label:hover,
+.reviews input:not(:checked) ~ label:hover ~ label{
+    color: crimson;
+}
+.reviews input:checked ~ label{
+    color: crimson;
+}
+.comment{
+    max-width: 1200px;
+    margin: auto;
+}
+.related{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.related h2{
+    width: 100%;
+}
+.related .product_card{
+    max-width: 268px;
+    min-width: 248px;
+    overflow: hidden;
+    max-height: 450px;
+    padding: 10px;
+    box-shadow: 0 0 25px #ddd;
+    margin: 10px;
+}
+.related .product_card img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 175px;
+}

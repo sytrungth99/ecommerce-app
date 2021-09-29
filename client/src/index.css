@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin:0 auto;
+  box-shadow: 0 0 20px #eee;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footer{
+  padding: 0 21px;
+  background-color: #a4a49080;
+}
+.slide img{
+  height: 300px;
+}
+.container-fluid{
+  max-width: 1120px;
+}
+/*-------------------products----------------*/
+@import url('./components//body/products/Product.css');
+@import url('./components/body/detailProduct/DetailProduct.css');
+@import url('./components/body/login/Login.css');
+@import url('./components/header/Header.css');
+@import url('./components/body/cart/Cart.css');
+@import url('./components/body/profile/Profile.css');
+@import url('./components/body/categorys/category.css');
+@import url('./components/body/createProduct/createProduct.css');
+@import url('./components/body/history/History.css');
+
+/*-------------------responsive----------------*/
+@media (max-width:840px){
+  .logo{
+    min-width: 125px;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width:637px){
+  .header ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drop-nav{
+    display: none;
+  }
+  .header .menu{
+    display: block;
+    cursor: pointer;
+  }
+  .filter_menu .rows span{
+    display: none;
+  }
+  .delete-all{
+    text-align: center;
+  }
+
+}
+@media (max-width:755px){
+  .products_page{
+    justify-content: space-around;
+  }
+}
+

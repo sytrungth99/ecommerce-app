@@ -1,0 +1,63 @@
+.products_page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.loadmore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.loadmore button{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.delete-all{
+    text-align: right;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    margin: 0 auto;
+   
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+}

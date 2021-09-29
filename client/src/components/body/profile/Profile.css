@@ -1,0 +1,39 @@
+.profile_page{
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px;
+    position: relative;
+    top: 21px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.title-profile{
+    text-align: center;
+}
+.avatars{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img-avatar{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.form-group{
+    display: flex;
+    margin: 10px 20px;
+}
+.form-group label{
+    min-width: 115px;
+    font-weight: bold;
+}
+.form-group input{
+    width: 100%;
+}

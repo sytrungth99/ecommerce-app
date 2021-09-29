@@ -1,0 +1,43 @@
+.infor_page{
+    max-width: 800px;
+    margin: auto;
+    color: #444;
+    padding: 0 15px;
+    border: 1px solid;
+    
+}
+.getinfor{
+    display: flex;
+}
+.infor_page h2{
+    text-transform: uppercase;
+    color: red;
+    
+}
+.infor_page label{
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 159px;
+    padding-top: 19px;
+}
+.infor_page input{
+    width: 95%;
+    height: 45px;
+    margin: 10px 0;
+    border: 2px solid #777;
+    outline: none;
+    padding: 0 10px;
+}
+.infor_page button{
+    width: 100%;
+    height: 45px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    background-color: black;
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
